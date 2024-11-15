@@ -59,4 +59,5 @@ public class Vehicle {
     public int hashCode() {
         return Objects.hash(vehicleType, maxSpeed, color, plate);
     }
+
 }
