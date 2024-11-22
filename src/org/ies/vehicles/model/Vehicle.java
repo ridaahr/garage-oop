@@ -60,4 +60,13 @@ public class Vehicle {
         return Objects.hash(vehicleType, maxSpeed, color, plate);
     }
 
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "vehicleType=" + vehicleType +
+                ", maxSpeed=" + maxSpeed +
+                ", color='" + color + '\'' +
+                ", plate='" + plate + '\'' +
+                '}';
+    }
 }
