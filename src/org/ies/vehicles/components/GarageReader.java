@@ -21,11 +21,6 @@ public class GarageReader {
         System.out.println("Direccion");
         String address = scanner.nextLine();
 
-        Vehicle vehicle1 = vehicleReader.read();
-
-        Vehicle vehicle2 = vehicleReader.read();
-
-
         System.out.println("Introduce la cantidad de vehículos");
         int size = scanner.nextInt();
         Vehicle[] vehicles = new Vehicle[size];
